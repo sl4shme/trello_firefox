@@ -19,8 +19,8 @@ var js = `
   };
 
   var jsonp = function(action, card_id){
-    var pkey = "MARKER";
-    var baseurl = "https://hp.plop.in/trello?pkey=" + pkey ;
+    var pkey = "MARKER1";
+    var baseurl = "MARKER2?pkey=" + pkey ;
     var s = document.createElement("script");
     s.id = "jsonp";
     s.type = "text/javascript";
@@ -124,8 +124,11 @@ var js = `
   }
 `;
 
+js = js.replace("MARKER1", private_key);
+js = js.replace("MARKER2", api_url);
+
 var scr = document.createElement('script');
 scr.id = "plop";
 scr.type = "text/javascript";
-scr.innerHTML = js.replace("MARKER", private_key);
+scr.innerHTML = js;
 document.head.appendChild(scr);
