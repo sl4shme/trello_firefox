@@ -1,0 +1,13 @@
+{
+  "title": "TrelloEnhancer",
+  "name": "TrelloEnhancer",
+  "version": "0.0.1",
+  "description": "Trello Enhancer",
+  "main": "index.js",
+  "author": "Plop",
+  "engines": {
+    "firefox": ">=38.0a1",
+    "fennec": ">=38.0a1"
+  },
+  "license": "MIT"
+}
