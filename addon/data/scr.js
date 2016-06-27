@@ -102,8 +102,8 @@ var js = `
             area.appendChild(create_quick_button("Done", "done", card_id));
             area.appendChild(create_quick_button("Backlog", "backlog", card_id));
             area.removeChild(document.getElementsByClassName("quick-card-editor-buttons-item js-edit-members")[0]);
-            area.removeChild(document.getElementsByClassName("quick-card-editor-buttons-item js-move-card")[0]);
-            area.removeChild(document.getElementsByClassName("quick-card-editor-buttons-item js-copy-card")[0]);
+//            area.removeChild(document.getElementsByClassName("quick-card-editor-buttons-item js-move-card")[0]);
+//            area.removeChild(document.getElementsByClassName("quick-card-editor-buttons-item js-copy-card")[0]);
             global_lock = false;
           }
         }
